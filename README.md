@@ -4,7 +4,7 @@
 2.	Deploy any web application onto that cluster. The web application should be accessible from your web browser
 3.	Create a CI/CD pipeline that deploys the web application onto the cluster.
 
-#Step 1: Creating a Vagrantfile
+Step 1: Creating a Vagrantfile
 Using the text editor of choice create a file with named Vagrantfile, inserting the code below. The value of N denotes the number of nodes present in the cluster, it can be modified accordingly. In the below example, we are setting the value of N as 2.
 
 Step 2: Create an Ansible playbook for Kubernetes master.
